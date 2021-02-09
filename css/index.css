@@ -182,6 +182,7 @@
 }
 .first_floor_title h2 {
     float: left;
+    height: 100%;
 }
 .first_floor_title ul {
     float: right;
@@ -210,7 +211,7 @@
 .left_1 {
     width: 210px;
     height: 378px;
-    margin-left: -74px;
+    /* margin-left: -74px; */
 }
 .left_1 ul {
     width: 100%;
@@ -235,7 +236,7 @@
     top: 0;
     left: 0;
     transition: opacity 2s;
-    opacity: 0;
+    /* opacity: 0; */
 }
 .left_3 {
     width: 219px;

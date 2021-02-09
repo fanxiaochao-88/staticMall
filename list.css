@@ -1,0 +1,83 @@
+.sk_list {
+    line-height: 45px;
+    float: left;
+    color: brown;
+}
+.sk_list a {
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.navitems ul li:nth-child(2) a {
+    color: red;
+}
+.sk_bd ul {
+    overflow: hidden;
+}
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    margin-right: 13px;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li img {
+    display: block;
+    margin: 0 auto;
+}
+.sk_bd ul li:hover {
+    border-color: #f00;
+}
+.sk_bd ul li .desc {
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+.sk_bd .newprice {
+    font-size: 18px;
+    color: #b1191a;
+    padding-left: 5px;
+    font-weight: 700;
+    margin-right: 4px;
+}
+.sk_bd .oldprice {
+    font-size: 12px;
+    color: #666;
+    text-decoration: line-through;
+}
+.process {
+    height: 28px;
+    line-height: 28px;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.process > div {
+    float: left;
+}
+.process_wrapper {
+    width: 132px;
+    height: 12px;
+    border: 1px solid #f00;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 7px 5px;
+}
+.process_wrapper .process_inner {
+    width: 70%;
+    height: 100%;
+    background-color: #f00;
+}
+.button {
+    height: 52px;
+    background-color: #b1191a;
+    text-align: center;
+    line-height: 52px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 34px;
+}
